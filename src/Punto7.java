@@ -1,12 +1,15 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+//Autor: Santiago Palencia 
+//Tema: Ejercicio #7
+//Ejercicio: Escribir un programa en Java que imprima por pantalla la división de 1234 entre 532.
 
-/**
- *
- * @author Sgame
- */
+
 public class Punto7 {
-    
+        public static void main(String[] args) {
+        double y = 1234;
+        double x = 532;
+        double divi = y / x;
+        System.out.println("La división de " + x + " y " + y + " es: " + divi);
+
+    }
+
 }

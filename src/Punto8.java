@@ -1,12 +1,14 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+/**Autor: Santiago Palencia 
+*Tema: Ejercicio #8
+*Ejercicio: Escribir un programa en Java que imprima por pantalla los números del 1 al 3.
+*/
 
-/**
- *
- * @author Sgame
- */
 public class Punto8 {
-    
+     public static void main(String[] args) {
+        for (int i = 1; i <= 3; i++) {
+        System.out.println(i);
+
+        }
+     }
 }
+     

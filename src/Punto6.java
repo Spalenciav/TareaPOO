@@ -1,12 +1,14 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+//Autor: Santiago Palencia 
+//Tema: Ejercicio #6
+//Ejercicio: Escribir un programa en Java que imprima por pantalla la multiplicación de 1234 y 532.
 
-/**
- *
- * @author Sgame
- */
 public class Punto6 {
-    
+    public static void main(String[] args) {
+        int y = 1234;
+        int x = 532;
+        int multi = x * y;
+        System.out.println("La multiplicación de " + x + " y " + y + " es: " + multi);
+
+    }
+
 }

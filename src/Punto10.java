@@ -1,12 +1,13 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+/**Autor: Santiago Palencia 
+*Tema: Ejercicio #10
+*Ejercicio: Escribir un programa en Java que imprima por pantalla los números del 1 al 10.000. Conveniente usar bucles.
+*/
 
-/**
- *
- * @author Sgame
- */
 public class Punto10 {
-    
+    public static void main(String[] args) {
+        for (int i = 1; i <= 10000; i++) {
+        System.out.println(i);
+
+        }
+     }
 }
