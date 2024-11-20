@@ -8,4 +8,4 @@ public class Punt2 {
         int numero = 273;   //int numero = 597;
         System.out.println("El número es: " + numero);
     }
-}
+} 
